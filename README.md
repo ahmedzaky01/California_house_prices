@@ -1,17 +1,23 @@
-# Overall look at California_house_prices project
-End to end machine learning problem
-Hopefully this notebook gave you a good idea of what a Machine Learning project looks like, and showed you some of the tools you can use to train a great system. 
-As you can see, much of the work is in the data preparation step, building monitoring tools, setting up human evaluation pipelines, 
-and automating regular model training. The Machine Learning algorithms are also important, of course,
-but it is probably preferable to be comfortable with the overall process and know three or four algorithms well rather than
-to spend all your time exploring advanced algorithms and not enough time on the overall process
+# California-House-Price-Prediction
+This is a regression problem to predict california housing prices.
 
-# Why is this Model useful
-A machine learning model that is trained on California Housing Prices dataset.
-I am doing supervised learning here and my aim is to do predictive analysis
-During my journey we’ll understand the important tools needed to develop a powerful ML model
-My model will help us in predicting future housing prices.
-I will validate it against our test dataset.
+The dataset contains 20640 entries and 10 variables.
+
+Longitude
+Latitude
+Housing Median Age
+Total Rooms
+Total Bedrooms
+Population
+Households
+Median Income
+Median House Value
+Ocean Proximity
+Median House Value is to be predicted in this problem.
+
+# Frame the Problem
+The first question to ask is what exactly is the business objective; building a
+model is probably not the end goal. How does the company expect to use and benefit from this model? This is important because it will determine how you frame the problem, what algorithms you will select, what performance measure you will use to evaluate your model, and how much effort you should spend tweaking it.
 
 # Steps needed to do the project 
 Understand the requirements of the business.
